@@ -45,6 +45,7 @@ a:focus {
 	position: absolute;
 	bottom: 0;
 	min-width: 100%;
+	
 	min-height: 120%;
 	width: auto;
 	height: auto;
@@ -81,8 +82,10 @@ a:focus {
 	margin: 0 0 10px;
 	font-weight: 900;
 	font-size: 2em;
-	font-family: 'Cutive Mono', ;
+	font-family: 'Lobster', cursive;
 	line-height: 1;
+
+
 	
 }
 
@@ -92,7 +95,10 @@ a:focus {
 	-webkit-align-items: center;
 	align-items: center;
 	float: right;
-	padding: auto
+	padding: auto;
+	position: absolute;
+	right: 50px;
+	bottom: 35px;
 	
 }
 
@@ -111,8 +117,8 @@ a:focus {
 	overflow: hidden;
 	margin: 0 0 0 20px;
 	padding: 0;
-	width: 40px;
-	height: 40px;
+	width: 90px;
+	height: 43px;
 	outline: none;
 	border: none;
 	background: none;
@@ -219,7 +225,7 @@ a:focus {
 	padding: 1em;
 	color: #dbdbdb;
 	font-size: 1.85em;
-	font-family: 'Cutive Mono', ;
+	font-family: 'Lobster', cursive;
 	line-height: 1;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s, opacity 0.3s;
